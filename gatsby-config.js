@@ -227,7 +227,8 @@ module.exports = {
         postCssPlugins: [...postCssPlugins],
         cssLoaderOptions: {
           camelCase: false
-        }
+        },
+        implementation: require('sass')
       }
     },
     {
